@@ -1,0 +1,64 @@
+.body {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    max-width: 96%;
+}
+
+h2 {
+    font-family: arial;
+    font-size: 40;
+}
+
+p {
+    font-family: arial;
+    font-size: 20;
+}
+
+.bar-text {
+    font-family: arial;
+    font-size: 18px;
+    text-align: center;
+}
+
+.border {
+    background-color: lightgray;
+    border-radius: 16px;
+    height: 24px;
+    width: 70%
+}
+
+.temperature-bar {
+    background-color: orange;
+    border-radius: 16px;
+    height: 24px;
+}
+
+.humidity-bar {
+    background-color: lightskyblue;
+    border-radius: 16px;
+    height: 24px;
+}
+
+.pressure-bar {
+    background-color: gray;
+    border-radius: 16px;
+    height: 24px;
+}
+
+.button {
+    background-color: lightgray;
+    border:none;
+    border-radius: 32px;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+

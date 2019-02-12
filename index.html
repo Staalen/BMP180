@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMP180</title>   <!--Setter tittel på tab-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="20">   <!--Refresher sia hvert 20 sekund-->
+  <link rel="stylesheet" href="https://dyviknilsen.no/tobias/bmp180/static/styles.css">   <!--Henter CSS koden min fra Jonas sitt domene-->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://dyviknilsen.no/tobias/bmp180/favicon/apple-touch-icon.png">    <!--Custom logo til taben-->
+  <link rel="icon" type="image/png" sizes="32x32" href="https://dyviknilsen.no/tobias/bmp180/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://dyviknilsen.no/tobias/bmp180/favicon/favicon-16x16.png">
+  <link rel="manifest" href="https://dyviknilsen.no/tobias/bmp180/favicon/site.webmanifest">
+  <link rel="mask-icon" href="https://dyviknilsen.no/tobias/bmp180/favicon/safari-pinned-tab.svg" color="#000000">
+  <link rel="shortcut icon" href="https://dyviknilsen.no/tobias/bmp180/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-config" content="https://dyviknilsen.no/tobias/bmp180/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="body">
+
+    <h2>Progress bar for BMP180</h2>    <!--Overskrift "Headline"-->
+    
+    <p>Temperature messured in celsius.</p>   <!--Underoverskrift "phrase"-->
+    <div class="border">    <!--Setter omris til prosessbar-->
+      <div class="temperature-bar bar-text" style="width:{temp_percentage}%">{temps}&#176;C</div>   <!--Styler også viser temperatur på baren-->
+    </div><br>
+    
+    <p>Pressure in messured in megapascal .</p>   <!--Underoverskrift "phrase"-->
+    <div class="border">    <!--Setter omris til prosessbar-->
+      <div class="pressure-bar bar-text" style="width:{pressure_percentage}%">{pressure} hPa</div>    <!--Styler også viser trykk på baren-->
+    </div><br>
+
+    <form>
+        <input class="button" type="button" value="Instagram" onclick="window.location.href='https://www.instagram.com/tobyos00'">    <!--En knapp som tar deg til min istagram-->
+    </form>                                                                                                                           <!--Som også kan vise været fra eventuelle bilder-->
+
+  </div>
+</body>
+</html>
